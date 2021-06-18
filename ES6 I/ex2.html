@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Copy a string to the clipboard</title>
+</head>
+
+<body>
+    <p></p>
+
+    <textarea id="cp" rows="9" cols="70">
+       This is a text will be copied.
+      </textarea>
+    <button onclick="copy_text()">copy to clipboard</button>
+</body>
+<script>
+    const copy_text = () => {
+        let str = document.getElementById("cp");
+        str.select();
+        document.execCommand('copy');
+    }
+</script>
+
+</html>
