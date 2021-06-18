@@ -1,1 +1,1 @@
-# Openwt-Nodejs2021-TranVuMinhTriet
+# Minh Triet: Exercises
