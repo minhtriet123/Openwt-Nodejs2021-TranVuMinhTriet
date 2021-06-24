@@ -12,4 +12,4 @@ const compute_average = (ar, fn) => {
 console.log(compute_average([{ a: 40 }, { a: 20 }, { a: 80 }, { a: 60 }], o => o.a));
 console.log(compute_average([{ a: 4 }, { a: 2 }, { a: 8 }, { a: 6 }], 'a'));
 
-/sai
+/ sai

@@ -11,5 +11,4 @@ const group_elements = (ar, fn) => {
 console.log(group_elements([6.1, 4.2, 6.3], Math.sqrt));
 console.log(group_elements([6.1, 4.2, 6.3], Math.floor));
 console.log(group_elements(['one', 'two', 'three'], 'length'));
-
 /chua xong
